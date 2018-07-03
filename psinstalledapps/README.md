@@ -15,9 +15,10 @@
 * Noticed that the registry pull had gaps. Some googling revealed that if some of the searched values were null that the output would not show
 * Found an script at https://mcpmag.com/articles/2017/07/27/gathering-installed-software-using-powershell.aspx that demonstrated parsing each registry entry and try/catching on null values
 * Second script has a modified version of that code which is more comprehensive
-##Future Changes & Upgrades
+##Considerations
+###Future Changes & Upgrades
 * Change the output fields
 * Output to file
 * Parse installed software over a list of remote machines (as described in the link)
-##Error Handling
+###Error Handling
 * The output fields are catched and ignored if null
