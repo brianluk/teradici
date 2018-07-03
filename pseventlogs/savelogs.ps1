@@ -1,0 +1,1 @@
+Get-WinEvent @{logname='system';starttime=[datetime]::today.AddDays(-1); } | Export-Csv -Path "systemlogs.csv"
